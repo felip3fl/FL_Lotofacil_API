@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presenter", "1 - Presenter", "{B970E079-74C3-4383-8B27-69409F2F8810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 API", "1.1 API", "{E8F38E4C-D13B-4321-8A4A-B5DFE5F91B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL.Lotofacil.API", "FL.Lotofacil.API\FL.Lotofacil.API.csproj", "{D8F4D51E-B55F-4329-A7A9-E415A7FC2DBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Site", "1.2 Site", "{0D36E7E9-3532-4790-8247-44F00978553C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Core", "2 - Core", "{2BD8EE56-512C-44AE-98C1-489DDC065016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{4F467C9E-94A3-49FB-B3CA-52CD605CCB05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL.Lotofacil.Business", "FL.Lotofacil.Business\FL.Lotofacil.Business.csproj", "{7F6C49DD-74B3-4F6D-A9B9-40EF73B3BCE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 Data", "3.1 Data", "{A8AD57D6-0494-4F4F-91E7-C3AA2F868B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL.Lotofacil.Infra.Data", "FL.Lotofacil.Infra.Data\FL.Lotofacil.Infra.Data.csproj", "{40F522CE-98D7-4C92-8A24-68B39FEC609B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8F4D51E-B55F-4329-A7A9-E415A7FC2DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F4D51E-B55F-4329-A7A9-E415A7FC2DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F4D51E-B55F-4329-A7A9-E415A7FC2DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F4D51E-B55F-4329-A7A9-E415A7FC2DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6C49DD-74B3-4F6D-A9B9-40EF73B3BCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6C49DD-74B3-4F6D-A9B9-40EF73B3BCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6C49DD-74B3-4F6D-A9B9-40EF73B3BCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6C49DD-74B3-4F6D-A9B9-40EF73B3BCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F522CE-98D7-4C92-8A24-68B39FEC609B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F522CE-98D7-4C92-8A24-68B39FEC609B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F522CE-98D7-4C92-8A24-68B39FEC609B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F522CE-98D7-4C92-8A24-68B39FEC609B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8F38E4C-D13B-4321-8A4A-B5DFE5F91B4E} = {B970E079-74C3-4383-8B27-69409F2F8810}
+		{D8F4D51E-B55F-4329-A7A9-E415A7FC2DBE} = {E8F38E4C-D13B-4321-8A4A-B5DFE5F91B4E}
+		{0D36E7E9-3532-4790-8247-44F00978553C} = {B970E079-74C3-4383-8B27-69409F2F8810}
+		{7F6C49DD-74B3-4F6D-A9B9-40EF73B3BCE1} = {2BD8EE56-512C-44AE-98C1-489DDC065016}
+		{A8AD57D6-0494-4F4F-91E7-C3AA2F868B43} = {4F467C9E-94A3-49FB-B3CA-52CD605CCB05}
+		{40F522CE-98D7-4C92-8A24-68B39FEC609B} = {A8AD57D6-0494-4F4F-91E7-C3AA2F868B43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7138C94D-9BEA-461E-BA22-ACD2E27DA4D2}
+	EndGlobalSection
+EndGlobal
